@@ -1,0 +1,35 @@
+INGLES E PORTUGUES
+
+uma pagina só, três abas, menu com skills 
+
+
+menu de skills com barra de progresso
+INGLÊS
+GIT/GITHUB 
+HTML5
+CSS
+JAVASCRIPT
+REACT
+MY SQL
+POO
+ANGULAR.JS
+NODE.JS 
+TYPESCRIPT
+BOOTSTRAP
+
+sobre mim, projetos, contato
+
+sobre mim-  
+foto, 
+mini texto sobre minha pessoa
+
+projetos-
+forma de grid 
+incluindo o link para o codigo fonte dessa página
+
+contato -
+redes sociais, formas de contato (links)
+link para
+github
+linkedin
+curriculo (download pdf)
