@@ -12,10 +12,9 @@
 .lang-section {
     display: flex;
     justify-content: center;
-    align-items: center;
     position: absolute;
     top: 13px;
-    right: 20%;
+    right: 480px;
     padding: 0px
     
 }
