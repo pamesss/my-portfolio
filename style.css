@@ -12,18 +12,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     position: fixed;
     padding: 0px;
     top: 3.3%;
     right: 30vw;
-=======
-    position: absolute;
-    top: 13px;
-    right: 480px;
-    padding: 0px
-    
->>>>>>> fdc4ee374e0262cc0c66f48fe50d64a93ab9789a
 }
    .lang-section img {
         width: 20px;
