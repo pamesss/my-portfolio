@@ -1,3 +1,4 @@
+<<<<<<< HEAD:style_br.css
 .background{
     background: radial-gradient(#f588d8, #8961be);
     display: flex;
@@ -221,4 +222,255 @@ section > p {
     #BOOTSTRAP {
         width: 100%;
     }
+=======
+.background{
+    background: radial-gradient(#f588d8, #8961be);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: monospace;
+}
+/*=============================================*/
+/* LANGUAGE CONTENT */
+.lang-section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 13px;
+    right: 480px;
+    padding: 0px
+    
+}
+   .lang-section img {
+        width: 20px;
+    }
+    .btnbrazil {
+        border: 0px;
+        border-radius: 4px 0px 0px 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #272133;
+    }
+    .btnusa:hover{
+        cursor: pointer;
+    }
+    .btnusa {
+        border: 0px;
+        border-radius: 0px 4px 0px 0px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+
+/*=============================================*/
+/* MAIN CONTENT */
+.card {
+    margin-top: 30px;
+    height: 520px;
+}
+    .main_content {
+        background-color: #272133;
+        display: inline-block;
+        width: 600px;
+        padding: 5px;
+        height: 510px;
+        border-radius: 4px 0px 0px 4px;
+        
+}
+    .aside_menu {
+        background-color: #272133;
+        margin-left: 2px;
+        height: 510px;  
+        width: 250px;
+        padding: 5px;
+        float: right;
+        border-radius: 0px 4px 4px 0px;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5px;
+    border-bottom: rgba(0, 0, 0, 0.5) solid 2px;
+}
+    .tabs li{
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 5px solid #272133;
+        border-radius: 6px;
+        
+    }
+    .tabs a {
+        text-decoration: none;
+        font-weight: 600px;
+        color: #fcfcfc;
+    }
+    .tabs li:hover {
+        cursor: pointer;
+        border-radius: 6px;
+        border: 5px solid rgba(235, 25, 110, 1);
+    }
+/* FIRST TAB CONTENT - ABOUT ME */
+
+.about-me_menu {
+    height: 428px;
+}
+    .job_position {
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        color: #fcfcfc;
+    }
+    .job_position abbr {
+        color: rgba(235, 25, 110, 1);
+        text-decoration: underline;
+        font-size: 0.9rem;
+
+    }
+    .about-me_text {
+        font-size: 0.9rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #fcfcfc;
+    }
+
+/* SECOND TAB CONTENT - PROJECTS */
+.menu-projects {
+    height: 428px;
+    text-align: center;
+}
+.sub-title {
+    color: #58afd1;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+.menu-projects p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0px;
+    color: #fcfcfc;
+    
+}
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        padding: 30px;
+        padding-top: 0px;
+        align-items: center;
+        overflow: scroll;
+    }
+        .preview_image {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 250px;
+            height: 135px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+        .preview_image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 6px;
+        }
+        .preview_image img:hover {
+            width: 102%;
+            height: 102%;
+            border-radius: 6px;
+            box-shadow: rgba(235, 25, 110, 1) 0 10px 20px;
+        }
+
+/* THIRD TAB CONTENT - CONTACT */
+.contact-menu {
+    height: 428px;
+}
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
+}
+        .contact-btn{
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fcfcfc;
+            border: 0px;
+            border-radius: 7px;
+            padding: 10px;
+            width: 200px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .contact-btn:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.7);
+            box-shadow: rgba(235, 25, 110, 1) 0 10px 20px;
+        }
+
+        .contact-btn span {
+            position: relative;
+            top: -6px;
+        }
+        .contact-btn img {
+            width: 20px;
+            padding: 2px;
+        }
+/*=============================================*/
+/* SIDE MENU CONTENT */
+
+.my-photo {
+    width: 120px;
+    border: solid 5px #272133;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+}
+.skills {
+    padding: 15px;
+    height: 343px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -66px;
+    padding-top: 64px;
+    z-index: 1;
+}
+.skills article{
+    padding-bottom: 13px;
+}
+    .progress-text {
+        display: inline;
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+        float: left;
+        margin-right: 8px;
+    }
+    #ENGLISH,
+    #GIT,
+    #DESIGN,
+    #HTML,
+    #CSS,
+    #JS,
+    #REACT,
+    #MYSQL,
+    #POO,
+    #ANGULAR,
+    #NODE,
+    #TYPESCRIPT,
+    #BOOTSTRAP {
+        float: right;
+        width: 120px;
+    }
+>>>>>>> fdc4ee374e0262cc0c66f48fe50d64a93ab9789a:style2.css
     
