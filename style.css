@@ -1,11 +1,10 @@
 .background{
     background: radial-gradient(#f588d8, #8961be);
-    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     font-family: monospace;
+    overflow: hidden;
 }
 /*=============================================*/
 /* LANGUAGE CONTENT */
@@ -13,16 +12,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 13px;
-    right: 20%;
-    padding: 0px
-    
+    position: fixed;
+    padding: 0px;
+    top: 3.3%;
+    right: 30vw;
 }
    .lang-section img {
         width: 20px;
     }
-    .btnbrazil {
+    .btnbrazil, .btnusa {
         border: 0px;
         border-radius: 4px 0px 0px 0px;
         padding-left: 5px;
@@ -32,37 +30,15 @@
         cursor: pointer;
     }
     .btnusa {
-        border: 0px;
-        border-radius: 0px 4px 0px 0px;
-        padding-right: 5px;
-        padding-left: 5px;
         background-color: #272133;
+        border-radius: 0px 4px 0px 0px;
     }
     
 
 /*=============================================*/
 /* MAIN CONTENT */
 .card {
-    margin-top: 30px;
-    height: 520px;
-}
-    .main_content {
-        background-color: #272133;
-        display: inline-block;
-        width: 600px;
-        padding: 5px;
-        height: 510px;
-        border-radius: 4px 0px 0px 4px;
-        
-}
-    .aside_menu {
-        background-color: #272133;
-        margin-left: 2px;
-        height: 510px;  
-        width: 250px;
-        padding: 5px;
-        float: right;
-        border-radius: 0px 4px 4px 0px;
+    margin-top: 35px;
 }
 .tabs {
     display: flex;
@@ -75,62 +51,68 @@
     border-bottom: rgba(0, 0, 0, 0.5) solid 2px;
 }
     .tabs li{
-        padding: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 5px solid #272133;
-        border-radius: 6px;
+        padding: 10px 10px;
+        border-bottom: 2px solid rgba(225, 225, 225, 0);
         
     }
     .tabs a {
+        font-size: 1.1em;
         text-decoration: none;
-        font-weight: 600px;
+        font-weight: bolder;
         color: #fcfcfc;
     }
     .tabs li:hover {
         cursor: pointer;
-        border-radius: 6px;
-        border: 5px solid rgba(235, 25, 110, 1);
+        border-bottom: 2px solid rgba(235, 25, 110, 1);
     }
+    
+.main_content {
+    background-color: #272133;
+    display: inline-block;
+    text-align: center;
+    width: 45vw;
+    min-width: none;
+    height: 85vh;
+    padding: 5px;
+    border-radius: 20px 0px 0px 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
 /* FIRST TAB CONTENT - ABOUT ME */
 
-.menu-about-me {
-    height: 428px;
-}
-    .job_position {
-        text-align: center;
-        font-size: 0.8rem;
-        margin-top: 0px;
-        color: #fcfcfc;
-    }
-    .job_position abbr {
-        color: rgba(235, 25, 110, 1);
-        text-decoration: underline;
-        font-size: 0.9rem;
-
-    }
-    .about-me_text {
-        font-size: 0.9rem;
-        padding-left: 20px;
-        padding-right: 20px;
-        color: #fcfcfc;
-    }
-
-/* SECOND TAB CONTENT - PROJECTS */
-.menu-projects {
-    height: 428px;
-    text-align: center;
-}
 .sub-title {
     color: #58afd1;
     padding: 10px;
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.8em;
     margin-bottom: 0px;
 }
-.menu-projects p {
+.job_position {
+    font-size: 1.3em;
+    margin-top: 0px;
+    color: #fcfcfc;
+}
+.job_position abbr {
+    color: rgba(235, 25, 110, 1);
+
+}
+.about-me_text {
+    text-align: start;
+    margin-top: 30px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fcfcfc;
+}
+.about-me_text em {
+    color: #58afd1;
+}
+
+/* SECOND TAB CONTENT - PROJECTS */
+
+section > p {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.3em;
     margin-top: 0px;
     color: #fcfcfc;
     
@@ -138,55 +120,52 @@
     .projects {
         display: flex;
         flex-wrap: wrap;
-        height: 300px;
-        padding: 30px;
-        padding-top: 0px;
+        justify-content: center;
+        width: 45vw;
+        height: 58vh;
         align-items: center;
         overflow: scroll;
     }
         .preview_image {
             background-color: rgba(0, 0, 0, 0.5);
-            width: 250px;
+            width: 240px;
             height: 135px;
             margin: 10px;
             border-radius: 6px;
         }
         .preview_image img {
-            width: 100%;
-            height: 100%;
+            width: 240px;
+            height: 135px;
+            object-fit: cover;
             border-radius: 6px;
         }
         .preview_image img:hover {
-            width: 102%;
-            height: 102%;
             border-radius: 6px;
-            box-shadow: rgba(235, 25, 110, 1) 0 10px 20px;
+            box-shadow: rgba(235, 25, 110, 0.6) 0px 5px 15px 5px;
         }
 
 /* THIRD TAB CONTENT - CONTACT */
-.contact-menu {
-    height: 428px;
-}
     .contacts {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        font-size: 0.8rem;
+        justify-content: center;
+        gap: 40px;
 }
         .contact-btn{
             background-color: rgba(0, 0, 0, 0.5);
             color: #fcfcfc;
+            font-size: 1rem;
+            font-family: monospace;
             border: 0px;
             border-radius: 7px;
-            padding: 10px;
-            width: 200px;
-            margin-top: 40px;
-            margin-bottom: 20px;
+            padding: 15px;
+            width: 15vw;
+            margin-top: 20px;
         }
         .contact-btn:hover {
             cursor: pointer;
             background-color: rgba(0, 0, 0, 0.7);
-            box-shadow: rgba(235, 25, 110, 1) 0 10px 20px;
+            box-shadow: rgba(235, 25, 110, 0.6) 0px 5px 15px 5px;
         }
 
         .contact-btn span {
@@ -199,38 +178,33 @@
         }
 /*=============================================*/
 /* SIDE MENU CONTENT */
-
+.aside_menu {
+    background-color: #272133;
+    margin-left: 5px;  
+    width: 20vw;
+    height: 85vh;
+    padding: 5px;
+    float: right;
+    border-radius: 0px 20px 20px 0px;
+}
 .my-photo {
-    width: 120px;
+    width: 45%;
+    margin:10% 25%;
     border: solid 5px #272133;
     border-radius: 50%;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    z-index: 2;
-    position: relative;
     box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
 }
-.skills {
-    padding: 15px;
-    height: 343px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: -66px;
-    padding-top: 64px;
-    z-index: 1;
-}
-.skills article{
-    padding-bottom: 13px;
+.aside_menu > section {
+    background-color: rgba(235, 25, 110, 0);
+    padding: 0px 16px;
 }
     .progress-text {
-        display: inline;
+        display: inline-block;
         color: white;
         font-weight: 600;
         font-size: 1em;
-        float: left;
-        margin-right: 8px;
+        text-align: left;
+        width: 75%;
     }
     #ENGLISH,
     #GIT,
@@ -245,7 +219,6 @@
     #NODE,
     #TYPESCRIPT,
     #BOOTSTRAP {
-        float: right;
-        width: 120px;
+        width: 100%;
     }
     

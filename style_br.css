@@ -1,0 +1,224 @@
+.background{
+    background: radial-gradient(#f588d8, #8961be);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    overflow: hidden;
+}
+/*=============================================*/
+/* LANGUAGE CONTENT */
+.lang-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 0px;
+    top: 3.3%;
+    right: 30vw;
+}
+   .lang-section img {
+        width: 20px;
+    }
+    .btnbrazil, .btnusa {
+        border: 0px;
+        border-radius: 0px 4px 0px 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btnusa:hover{
+        cursor: pointer;
+    }
+    .btnbrazil {
+        background-color: #272133;
+        border-radius: 4px 0px 0px 0px;
+    }
+    
+
+/*=============================================*/
+/* MAIN CONTENT */
+.card {
+    margin-top: 35px;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5px;
+    border-bottom: rgba(0, 0, 0, 0.5) solid 2px;
+}
+    .tabs li{
+        padding: 10px 10px;
+        border-bottom: 2px solid rgba(225, 225, 225, 0);
+        
+    }
+    .tabs a {
+        font-size: 1.1em;
+        text-decoration: none;
+        font-weight: bolder;
+        color: #fcfcfc;
+    }
+    .tabs li:hover {
+        cursor: pointer;
+        border-bottom: 2px solid rgba(235, 25, 110, 1);
+    }
+    
+.main_content {
+    background-color: #272133;
+    display: inline-block;
+    text-align: center;
+    width: 45vw;
+    min-width: none;
+    height: 85vh;
+    padding: 5px;
+    border-radius: 20px 0px 0px 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+/* FIRST TAB CONTENT - ABOUT ME */
+
+.sub-title {
+    color: #58afd1;
+    padding: 10px;
+    font-size: 1.8em;
+    margin-bottom: 0px;
+}
+.job_position {
+    font-size: 1.3em;
+    margin-top: 0px;
+    color: #fcfcfc;
+}
+.job_position abbr {
+    color: rgba(235, 25, 110, 1);
+
+}
+.about-me_text {
+    text-align: start;
+    margin-top: 30px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fcfcfc;
+}
+.about-me_text em {
+    color: #58afd1;
+}
+
+/* SECOND TAB CONTENT - PROJECTS */
+
+section > p {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 0px;
+    color: #fcfcfc;
+    
+}
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 45vw;
+        height: 58vh;
+        align-items: center;
+        overflow: scroll;
+    }
+        .preview_image {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 240px;
+            height: 135px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+        .preview_image img {
+            width: 240px;
+            height: 135px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .preview_image img:hover {
+            border-radius: 6px;
+            box-shadow: rgba(235, 25, 110, 0.6) 0px 5px 15px 5px;
+        }
+
+/* THIRD TAB CONTENT - CONTACT */
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+}
+        .contact-btn{
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fcfcfc;
+            font-size: 1rem;
+            font-family: monospace;
+            border: 0px;
+            border-radius: 7px;
+            padding: 15px;
+            width: 15vw;
+            margin-top: 20px;
+        }
+        .contact-btn:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.7);
+            box-shadow: rgba(235, 25, 110, 0.6) 0px 5px 15px 5px;
+        }
+
+        .contact-btn span {
+            position: relative;
+            top: -6px;
+        }
+        .contact-btn img {
+            width: 20px;
+            padding: 2px;
+        }
+/*=============================================*/
+/* SIDE MENU CONTENT */
+.aside_menu {
+    background-color: #272133;
+    margin-left: 5px;  
+    width: 20vw;
+    height: 85vh;
+    padding: 5px;
+    float: right;
+    border-radius: 0px 20px 20px 0px;
+}
+.my-photo {
+    width: 45%;
+    margin:10% 25%;
+    border: solid 5px #272133;
+    border-radius: 50%;
+    box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+}
+.aside_menu > section {
+    background-color: rgba(235, 25, 110, 0);
+    padding: 0px 16px;
+}
+    .progress-text {
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+        text-align: left;
+        width: 75%;
+    }
+    #ENGLISH,
+    #GIT,
+    #DESIGN,
+    #HTML,
+    #CSS,
+    #JS,
+    #REACT,
+    #MYSQL,
+    #POO,
+    #ANGULAR,
+    #NODE,
+    #TYPESCRIPT,
+    #BOOTSTRAP {
+        width: 100%;
+    }
+    

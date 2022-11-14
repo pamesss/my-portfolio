@@ -8,18 +8,20 @@
     <meta name="description" content="Projeto Mini-Introdução by Pamella Sotomayor Lopes.">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/star-ico.png" type="image/png">
-    <title>Portfólio - Pamella Lopes</title>
+    <title>Portfolio - Pamella Lopes</title>
 </head>
 
 <body class="background">
     <main class="card">
         <section class="main_content"> <!--THREE TABS INTRODUCTION-->
-            <ul class="tabs" type="none">
-                <li><a href="index.html" target="_self">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-                <section class="contact-menu">
+            <nav>
+                <ul class="tabs" type="none">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+                <section>
                     <h3 class="sub-title">Find me on these!</h3>
                     <div class="contacts">
                         <a href="https://www.linkedin.com/in/pamella-lopes-07b984177/"
@@ -38,50 +40,49 @@
                                     <span>Github</span>
                                 </button>
                         </a>
-                        <a href="https://docs.google.com/document/d/1gg2l5D2H4qwZ2XISfR5bW0WzPIlX1mpp/edit?usp=sharing&ouid=104045117395454638508&rtpof=true&sd=true" 
+                        <a href="https://docs.google.com/document/d/1cmkq32zya0zl-s5ne9LaJ3v7HmzBT1yw/edit?usp=sharing&ouid=102931999407980638517&rtpof=true&sd=true" 
                             target="_blank" 
                             rel="external" class="curriculo">
                                 <button class="contact-btn">
                                     <img src="images/download-ico.png" alt="download icon">
-                                    <span>Curriculum</span>
+                                    <span>Curriculum <br>(pt-br)</span>
                                 </button>
                         </a>       
                     </div>
                 </section>
             </div>
         </section>
-        <aside class="aside_menu"> <!--PHOTO N SKILLS SIDE BAR-->
-          <section class="side_info">
-              <img class="my-photo" src="./images/1661355339176.jpg" alt="Pamella's photo" type="image/png">
-              <div class="skills">
+    </main>
+    <aside class="card aside_menu"> <!--PHOTO N SKILLS SIDE BAR-->
+            <img class="my-photo" src="./images/1661355339176.jpg" alt="Pamella's photo" type="image/png">
+            <section>
                 <article>
-                    <label for="ENGLISH" class="progress-text">English</label>
-                    <progress id="ENGLISH" value="80" max="100"></progress><br>
+                    <label for="ENGLISH" class="progress-text">English</label><progress id="ENGLISH" value="80" max="100"></progress><br>
                 </article>
 
                 <article>
                     <label for="HTML" class="progress-text">HTML5</label>
                     <progress id="HTML" value="80" max="100"></progress><br>
                 </article>
-
+                
                 <article>
-                    <label for="GIT" class="progress-text">Git/Github</label>
-                    <progress id="GIT" value="20" max="100"></progress><br>
+                    <label for="GIT" class="progress-text">Git</label>
+                    <progress id="GIT" value="40" max="100"></progress><br>
                 </article>
 
                 <article>
-                    <label for="DESIGN" class="progress-text">Design UX/UI</label>
+                    <label for="DESIGN" class="progress-text">Design UI</label>
                     <progress id="DESIGN" value="40" max="100"></progress><br>
                 </article>
 
                 <article>
                     <label for="CSS" class="progress-text">CSS</label>
-                    <progress id="CSS" value="40" max="100"></progress><br>
+                    <progress id="CSS" value="50" max="100"></progress><br>
                 </article>
 
                 <article>
                     <label for="JS" class="progress-text">JavaScript</label>
-                    <progress id="JS" value="0" max="100"></progress><br>
+                    <progress id="JS" value="10" max="100"></progress><br>
                 </article>
 
                 <article>
@@ -90,47 +91,25 @@
                 </article>
 
                 <article>
-                    <label for="MYSQL" class="progress-text">MySQL</label>
-                    <progress id="MYSQL" value="0" max="100"></progress><br>
-                </article>
-
-                <article>
-                    <label for="POO" class="progress-text">POO</label>
-                    <progress id="POO" value="0" max="100"></progress><br>
-                </article>
-
-                <article>
                     <label for="ANGULAR" class="progress-text">Angular.JS</label>
                     <progress id="ANGULAR" value="0" max="100"></progress><br>
                 </article>
 
                 <article>
-                    <label for="NODE" class="progress-text">Node.JS</label>
-                    <progress id="NODE" value="0" max="100"></progress><br>
+                    <label for="MYSQL" class="progress-text">MySQL</label>
+                    <progress id="MYSQL" value="0" max="100"></progress><br>
                 </article>
-
-                <article>
-                    <label for="TYPESCRIPT" class="progress-text">Typescript</label>
-                    <progress id="TYPESCRIPT" value="0" max="100"></progress><br>
-                </article>
-
-                <article>
-                    <label for="BOOTSTRAP" class="progress-text">Bootstrap</label>
-                    <progress id="BOOTSTRAP" value="0" max="100"></progress><br>
-                </article>
-              </div>
           </section>
         </aside>
-    </main>
     <section class="lang-section">
-        <a href="contact-ptbr.html" target="_parent">
+        <a href="contact_br.html" target="_parent">
             <button class="btnbrazil">
                 <img src="images/brazil-ico.png" alt="brazil's flag">
             </button>  
         </a>
         
         <button class="btnusa">
-            <img src="images/usa-ico.png" alt="united states's flag">
+            <img src="images/usa-ico_selected.png" alt="united states's flag">
         </button>
     </section>
 </body>
