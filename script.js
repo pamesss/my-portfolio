@@ -1,0 +1,1 @@
+window.alert('If you\'re a recruiter, please check out the code!')
