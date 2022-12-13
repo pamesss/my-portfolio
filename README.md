@@ -1,5 +1,5 @@
 # Meu portfólio pessoal
-_PROJETO ATUALIZADO EM 13/11/2022_
+_PROJETO ÚLTIMO ATUALIZADO EM 12/12/2022_
 
 ## Preview
 [Link](https://pamesss.github.io/my-portfolio/)
